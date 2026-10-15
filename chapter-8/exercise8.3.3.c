@@ -8,7 +8,7 @@ int main(void) {
     bool digits_seen[10] = {false};
     long num;
     int digit, i;
-    
+
     for (;;) {
         printf("Enter a number [less/equal to 0 to terminate]: ");
         scanf(" %ld", &num);
@@ -17,6 +17,9 @@ int main(void) {
             break;
         }
 
+        for (i = 0; i < 10; i++) {
+            digits_seen[i] = false;
+        }
         while (num > 0) {
             digit = num % 10; // last digit
             if (digits_seen[digit]) { // if already seen
@@ -25,7 +28,7 @@ int main(void) {
             digits_seen[digit] = true;
             num /= 10;
         }
-        
+
         if (num > 0) { // stopped before num could be divided to 0
             printf("Repeated digit\n");
         } else {
