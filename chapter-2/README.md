@@ -6,6 +6,7 @@ Practice programs from Chapter 2.
 
 | Exercise file | Summary | Lines |
 |---|---|---:|
+| `exercise2.8.1.c` | Prints a checkmark with asterisks. | 6 |
 | `exercise2.8.2.c` | Calculates the volume of a sphere from a user-entered radius. | 9 |
 | `exercise2.8.4.c` | Adds 5% tax to a user-entered dollar amount. | 8 |
 | `exercise2.8.5.c` | Evaluates a polynomial for a user-entered value of `x` using a nested expression. | 8 |
