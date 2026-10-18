@@ -16,6 +16,7 @@ Practice programs from Chapter 8.
 | `exercise8.08.c` | Reads five quiz grades for five students; prints per-student totals/averages and per-quiz average, high, and low. | 67 |
 | `exercise8.09.c` | Generates a random A–Z walk across a 10×10 grid, stopping early if surrounded. | 115 |
 | `exercise8.14.c` | Reverses the words in a sentence, keeping the terminating punctuation at the end. | 74 |
+| `exercise8.15.c` | Encrypts a message with a Caesar cipher, re-prompting until the shift is a number from 1 to 25. | 49 |
 
 Projects 10–13 are skipped: they rework earlier chapters' programs to use arrays, which didn't introduce anything new, so I moved on to new concepts instead.
 
