@@ -21,3 +21,5 @@ Practice programs from Chapter 8.
 Projects 10–13 are skipped: they rework earlier chapters' programs to use arrays, which didn't introduce anything new, so I moved on to new concepts instead.
 
 `exercise8.03.c` adapts the nested-loop structure (inner digit loop with `break`, `num > 0` check afterward) suggested by Claude.
+
+`exercise8.15.c` discards any characters past the 80-character limit before reading the shift, which Claude recommended. The book doesn't require handling this edge case.
