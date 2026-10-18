@@ -15,5 +15,8 @@ Practice programs from Chapter 8.
 | `exercise8.3.7.c` | Reads a 5×5 integer array and prints row and column totals. | 34 |
 | `exercise8.3.8.c` | Reads five quiz grades for five students; prints per-student totals/averages and per-quiz average, high, and low. | 67 |
 | `exercise8.3.9.c` | Generates a random A–Z walk across a 10×10 grid, stopping early if surrounded. | 115 |
+| `exercise8.3.14.c` | Reverses the words in a sentence, keeping the terminating punctuation at the end. | 74 |
+
+Projects 10–13 are skipped: they rework earlier chapters' programs to use arrays, which didn't introduce anything new, so I moved on to new concepts instead.
 
 `exercise8.3.3.c` adapts the nested-loop structure (inner digit loop with `break`, `num > 0` check afterward) suggested by Claude.
