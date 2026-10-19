@@ -18,9 +18,12 @@ Practice programs from Chapter 8.
 | `exercise8.14.c` | Reverses the words in a sentence, keeping the terminating punctuation at the end. | 74 |
 | `exercise8.15.c` | Encrypts a message with a Caesar cipher, re-prompting until the shift is a number from 1 to 25. | 49 |
 | `exercise8.16.c` | Tests whether two words are anagrams, ignoring case and non-letters. | 40 |
+| `exercise8.17.c` | Prints an n×n magic square for any odd n from 1 to 99. | 66 |
 
 Projects 10–13 are skipped: they rework earlier chapters' programs to use arrays, which didn't introduce anything new, so I moved on to new concepts instead.
 
 `exercise8.03.c` adapts the nested-loop structure (inner digit loop with `break`, `num > 0` check afterward) suggested by Claude.
 
 `exercise8.15.c` discards any characters past the 80-character limit before reading the shift, which Claude recommended. The book doesn't require handling this edge case.
+
+`exercise8.17.c` adapts the placement structure suggested by Claude: track the current cell and a candidate cell, falling back to the cell below without an inner search loop.
