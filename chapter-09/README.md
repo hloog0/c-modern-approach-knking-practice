@@ -13,4 +13,4 @@ Practice programs from Chapter 9.
 
 Projects 2–5 are skipped: they rework earlier chapters' programs to use functions, which didn't introduce anything new, so I moved on to new concepts instead.
 
-`exercise9.08.c` adapts the roll structure suggested by Claude: print the first roll once before the first-roll checks, and roll → print → check at the top of each pass of the point loop.
+`exercise9.08.c`: Claude's review pointed out that the first and final rolls were never printed and suggested sending every roll through one print statement; I restructured the roll loop to fix it.
